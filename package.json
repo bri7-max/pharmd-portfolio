@@ -1,0 +1,12 @@
+{
+  "name": "pharmd-portfolio",
+  "version": "1.0.0",
+  "description": "PharmD Student & Healthcare Innovator Portfolio",
+  "scripts": {
+    "dev": "npx serve . --listen 3000 --no-clipboard",
+    "start": "npx serve . --listen 3000"
+  },
+  "keywords": ["pharmd", "portfolio", "healthcare", "research"],
+  "author": "Branham Bright",
+  "license": "MIT"
+}

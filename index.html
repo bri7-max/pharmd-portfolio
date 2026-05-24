@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Branham Bright | PharmD Intern · Clinical Researcher · Evidence Synthesis</title>
+  <meta name="description" content="Portfolio of Branham Bright — PharmD Intern specializing in clinical research, systematic reviews & meta-analyses, health economics, and scientific writing. Based in Chennai, India." />
+  <meta name="keywords" content="PharmD, clinical research, systematic review, meta-analysis, pharmacovigilance, health economics, scientific writing, ICMR, Branham Bright" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <div class="particle-bg" id="particleBg"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">⚕</span>
+        <span class="logo-text">Branham Bright</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#publications" class="nav-link">Publications</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#writing" class="nav-link">Writing</a>
+        <a href="#presentations" class="nav-link">Presentations</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#referees" class="nav-link">References</a>
+        <a href="#contact" class="nav-link nav-link-cta">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-in">
+        <span class="badge-dot"></span>
+        PharmD Intern · Class of 2027
+      </div>
+      <h1 class="hero-title animate-slide-up">
+        Branham <span class="gradient-text">Bright</span>
+      </h1>
+      <p class="hero-subtitle animate-slide-up delay-1">
+        Clinical Researcher &nbsp;·&nbsp; Evidence Synthesis &nbsp;·&nbsp; Scientific Writer
+      </p>
+      <p class="hero-desc animate-slide-up delay-2">
+        A highly motivated PharmD intern with a strong foundation in clinical research, evidence synthesis, and scientific writing — aspiring to contribute to high-quality biomedical research and pursue higher studies.
+      </p>
+      <div class="hero-actions animate-slide-up delay-3">
+        <a href="#about" class="btn btn-primary">Explore My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats animate-fade-in delay-4">
+        <div class="stat">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">Publications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">Presentations</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Research Roles</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="hero-card glass-card animate-float">
+        <div class="hcard-icon">📊</div>
+        <div class="hcard-text">
+          <strong>Systematic Reviews</strong>
+          <span>SRMA &amp; Meta-Analyses</span>
+        </div>
+      </div>
+      <div class="hero-card glass-card animate-float delay-2" style="top:55%; left:-20px;">
+        <div class="hcard-icon">🔬</div>
+        <div class="hcard-text">
+          <strong>Clinical Pharmacology</strong>
+          <span>ICMR–NIRT Research</span>
+        </div>
+      </div>
+      <div class="hero-card glass-card animate-float delay-4" style="top:75%; right:10px;">
+        <div class="hcard-icon">💊</div>
+        <div class="hcard-text">
+          <strong>Health Economics</strong>
+          <span>TB Interventions &amp; Burden</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-frame glass-card">
+            <div class="about-avatar">BB</div>
+            <div class="about-image-badge">
+              <span>🎓</span> PharmD Intern
+            </div>
+          </div>
+          <div class="about-info-card glass-card">
+            <div class="info-row"><span class="info-icon">📍</span><span>Chennai, Tamil Nadu, India</span></div>
+            <div class="info-row"><span class="info-icon">🏛️</span><span>TN Dr. M.G.R. Medical University</span></div>
+            <div class="info-row"><span class="info-icon">🔬</span><span>ICMR–NIRT Research Intern</span></div>
+            <div class="info-row"><span class="info-icon">📧</span><span>brightbranham42@gmail.com</span></div>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">I am a PharmD intern with a strong foundation in clinical research, evidence synthesis, and scientific writing — driven by a deep commitment to advancing biomedical knowledge.</p>
+          <p class="about-text">My research experience spans <strong>systematic reviews and meta-analyses</strong>, <strong>clinical pharmacology</strong>, and <strong>health economics</strong>. I have completed research internships at ICMR–NIRT across the Departments of Clinical Pharmacology and Health Economics, gaining hands-on exposure to therapeutic drug monitoring, pharmacokinetic evaluation, and public health data analysis.</p>
+          <p class="about-text">With three papers currently under review, proficiency in tools like Rayyan, R software, and GRADEpro, and clinical clerkship experience at Government Medical College hospitals, I am committed to contributing meaningfully to evidence-based healthcare. I aspire to pursue higher studies in Germany and contribute to high-quality biomedical research on an international stage.</p>
+          <div class="about-tags">
+            <span class="tag">Systematic Reviews</span>
+            <span class="tag">Meta-Analysis</span>
+            <span class="tag">Clinical Research</span>
+            <span class="tag">Health Economics</span>
+            <span class="tag">Pharmacovigilance</span>
+            <span class="tag">Scientific Writing</span>
+            <span class="tag">Evidence Synthesis</span>
+          </div>
+          <a href="#contact" class="btn btn-primary" style="margin-top:2rem;">Connect With Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🎓</span>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-title">Doctor of Pharmacy (Pharm.D)</h3>
+                <p class="tc-institution">The Tamil Nadu Dr. M.G.R. Medical University, Chennai · The Erode College of Pharmacy, Erode</p>
+              </div>
+              <span class="tc-badge active">In Progress</span>
+            </div>
+            <p class="tc-year">📅 2020 – 2027 (Expected)</p>
+            <p class="tc-desc">Comprehensive Pharm.D program with clinical clerkship at Govt. Medical College &amp; Hospital, Tirupur and rotatory internship at Govt. Medical College &amp; Hospital, Perundurai. Active involvement in clinical research, evidence synthesis, and patient care.</p>
+            <div class="tc-highlights">
+              <span class="tc-tag">6-Year Program</span>
+              <span class="tc-tag">Clinical Rotations</span>
+              <span class="tc-tag">Research Active</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🧠</span>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-title">Bachelor of Science in Psychology (Distance Education)</h3>
+                <p class="tc-institution">Alagappa University, Karaikudi</p>
+              </div>
+              <span class="tc-badge completed">Completed</span>
+            </div>
+            <p class="tc-year">📅 2022 – 2025</p>
+            <p class="tc-desc">Pursued concurrently with the Pharm.D program to build an interdisciplinary understanding of human behavior, cognition, and mental health — strengthening a holistic perspective on patient care and healthcare research.</p>
+            <div class="tc-highlights">
+              <span class="tc-tag">Interdisciplinary</span>
+              <span class="tc-tag">Distance Education</span>
+              <span class="tc-tag">Patient Behavior</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🏥</span>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-title">Rotatory Internship</h3>
+                <p class="tc-institution">Government Medical College and Hospital, Perundurai</p>
+              </div>
+              <span class="tc-badge active">Ongoing</span>
+            </div>
+            <p class="tc-year">📅 June 2026 – May 2027</p>
+            <p class="tc-desc">Ward rounds with clinical teams, drug therapy reviews, patient medication management, counseling, drug information services, medication reconciliation, and therapeutic monitoring in a real-world hospital setting.</p>
+            <div class="tc-highlights">
+              <span class="tc-tag">Clinical Pharmacy</span>
+              <span class="tc-tag">Patient Counseling</span>
+              <span class="tc-tag">Medication Reconciliation</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-marker">
+            <span class="timeline-icon">📋</span>
+          </div>
+          <div class="timeline-card glass-card">
+            <div class="tc-header">
+              <div>
+                <h3 class="tc-title">Clinical Clerkship Posting</h3>
+                <p class="tc-institution">Government Medical College and Hospital, Tirupur</p>
+              </div>
+              <span class="tc-badge completed">Completed</span>
+            </div>
+            <p class="tc-year">📅 August 2025 – January 2026</p>
+            <p class="tc-desc">Conducted an observational study and prepared a case report. Developed clinical skills including reviewing patient case sheets, interpreting lab reports, identifying drug interactions, and collaborating with interdisciplinary healthcare teams.</p>
+            <div class="tc-highlights">
+              <span class="tc-tag">Case Reports</span>
+              <span class="tc-tag">Drug Interactions</span>
+              <span class="tc-tag">Interdisciplinary</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Scientific Inquiry</span>
+        <h2 class="section-title">Research Experience</h2>
+      </div>
+      <div class="research-grid">
+        <div class="research-card glass-card animate-on-scroll">
+          <div class="rc-icon">🔬</div>
+          <div class="rc-content">
+            <span class="rc-period">Nov 2025 – Dec 2025</span>
+            <h3 class="rc-title">Research Intern — Department of Clinical Pharmacology</h3>
+            <p class="rc-institution">ICMR–National Institute for Research in Tuberculosis (ICMR–NIRT), Chennai</p>
+            <p class="rc-desc">Handled biological samples following GLP. Performed Therapeutic Drug Monitoring (TDM) for drug concentration estimation. Gained exposure to HPLC and Mass Spectrometry for bioanalytical evaluation of drug concentrations and pharmacokinetic assessments.</p>
+            <div class="rc-tags">
+              <span class="rc-tag">TDM</span>
+              <span class="rc-tag">HPLC</span>
+              <span class="rc-tag">Mass Spectrometry</span>
+              <span class="rc-tag">GLP</span>
+            </div>
+          </div>
+        </div>
+        <div class="research-card glass-card animate-on-scroll">
+          <div class="rc-icon">📈</div>
+          <div class="rc-content">
+            <span class="rc-period">Feb 2026</span>
+            <h3 class="rc-title">Research Intern — Department of Health Economics</h3>
+            <p class="rc-institution">ICMR–National Institute for Research in Tuberculosis (ICMR–NIRT), Chennai</p>
+            <p class="rc-desc">Gained foundational exposure to health economic models evaluating cost-effectiveness of tuberculosis interventions. Utilized R programming for data analysis and visualization. Conducted systematic literature reviews using Rayyan and managed references with Zotero.</p>
+            <div class="rc-tags">
+              <span class="rc-tag">Health Economics</span>
+              <span class="rc-tag">R Programming</span>
+              <span class="rc-tag">Rayyan</span>
+              <span class="rc-tag">Zotero</span>
+            </div>
+          </div>
+        </div>
+        <div class="research-card glass-card animate-on-scroll">
+          <div class="rc-icon">🧪</div>
+          <div class="rc-content">
+            <span class="rc-period">Jun 2024 – Aug 2024</span>
+            <h3 class="rc-title">Certified Clinical Research Professional</h3>
+            <p class="rc-institution">STA-Premier Clinical Research Institute, Chennai (Remote)</p>
+            <p class="rc-desc">Completed an extensive clinical research training program covering clinical trial methodologies, regulatory frameworks, and ethical considerations. Gained hands-on experience in designing and managing clinical trials with compliance to global standards.</p>
+            <div class="rc-tags">
+              <span class="rc-tag">Clinical Trials</span>
+              <span class="rc-tag">Regulatory Affairs</span>
+              <span class="rc-tag">GCP</span>
+            </div>
+          </div>
+        </div>
+        <div class="research-card glass-card animate-on-scroll">
+          <div class="rc-icon">⚗️</div>
+          <div class="rc-content">
+            <span class="rc-period">Sep 2023</span>
+            <h3 class="rc-title">Skill Development Training — Chromatography &amp; Spectroscopy</h3>
+            <p class="rc-institution">CSIR–Central Electrochemical Research Institute (CSIR-CECRI), Karaikudi</p>
+            <p class="rc-desc">Completed a 5-day training under the CSIR Integrated Skill Initiative. Gained hands-on exposure to chromatographic techniques and spectroscopic methods used in analytical and electrochemical research, strengthening practical understanding of analytical instrumentation.</p>
+            <div class="rc-tags">
+              <span class="rc-tag">Chromatography</span>
+              <span class="rc-tag">Spectroscopy</span>
+              <span class="rc-tag">Analytical Chemistry</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section section-alt" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Scholarly Output</span>
+        <h2 class="section-title">Publications</h2>
+      </div>
+      <div class="pub-list">
+        <div class="pub-item glass-card animate-on-scroll">
+          <div class="pub-number">01</div>
+          <div class="pub-content">
+            <span class="pub-badge peer-reviewed">Systematic Review &amp; Meta-Analysis</span>
+            <h3 class="pub-title">Comparative Efficacy and Safety of Palonosetron Versus Ondansetron for Prevention of Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-Analysis</h3>
+            <p class="pub-authors">Abimuthra V, <strong>Branham Bright A</strong>, Madhumitha Haridoss</p>
+            <p class="pub-journal">PROSPERO 2025 CRD420251172577</p>
+            <div class="pub-metrics">
+              <span>📋 PROSPERO Registered</span>
+              <span>⏳ Under Review</span>
+              <a href="https://www.crd.york.ac.uk/PROSPERO/view/CRD420251172577" target="_blank" style="color: var(--blue-400); text-decoration: none; font-weight: 600; margin-left: auto; display: inline-flex; align-items: center; gap: 4px;">🔗 View Registry</a>
+            </div>
+          </div>
+        </div>
+        <div class="pub-item glass-card animate-on-scroll">
+          <div class="pub-number">02</div>
+          <div class="pub-content">
+            <span class="pub-badge peer-reviewed">Systematic Review &amp; Meta-Analysis</span>
+            <h3 class="pub-title">Effect of Oral Vitamin D3 Supplementation on Serum 25-Hydroxyvitamin D Concentrations in Healthy Children and Adolescents at Risk of Vitamin D Deficiency: A Systematic Review and Meta-Analysis of RCTs</h3>
+            <p class="pub-authors"><strong>Branham Bright A</strong>, Rubiya Jasrine R, Mercy Jose J, Barath Raj P, Amirtha Varshini S</p>
+            <p class="pub-journal">PROSPERO 2026 CRD420261343246</p>
+            <div class="pub-metrics">
+              <span>📋 PROSPERO Registered</span>
+              <span>👤 First Author</span>
+              <span>⏳ Under Review</span>
+              <a href="https://www.crd.york.ac.uk/PROSPERO/view/CRD420261343246" target="_blank" style="color: var(--blue-400); text-decoration: none; font-weight: 600; margin-left: auto; display: inline-flex; align-items: center; gap: 4px;">🔗 View Registry</a>
+            </div>
+          </div>
+        </div>
+        <div class="pub-item glass-card animate-on-scroll">
+          <div class="pub-number">03</div>
+          <div class="pub-content">
+            <span class="pub-badge review">Original Research</span>
+            <h3 class="pub-title">Predictors of Time to Recovery in Adult Patients with Diabetic Ketoacidosis: A Prospective Observational Study</h3>
+            <p class="pub-authors">Kavi Priya P, Barathiraja K, <strong>Branham Bright A</strong>, Rubiya Jasrine M, Mercy Jose J, Deepak Kumar SC, Vizhaags S</p>
+            <p class="pub-journal">Prospective Observational Study</p>
+            <div class="pub-metrics">
+              <span>🔬 Original Research</span>
+              <span>⏳ Under Review</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Applied Innovation</span>
+        <h2 class="section-title">Key Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card glass-card featured animate-on-scroll">
+          <div class="proj-glow"></div>
+          <div class="proj-header">
+            <span class="proj-icon">⛓️</span>
+            <span class="proj-badge featured-badge">Featured · IIT Delhi</span>
+          </div>
+          <h3 class="proj-title">Smart Contracts: A Silent Revolution in Clinical Trials</h3>
+          <p class="proj-desc">Presented at the 9th National Zonal Championship – BECon 2025 at IIT Delhi. Explored the transformative potential of blockchain-based smart contracts in automating clinical trial processes — from patient consent management and data integrity to transparent regulatory compliance and real-time monitoring.</p>
+          <div class="proj-tech">
+            <span>Blockchain</span><span>Smart Contracts</span><span>Clinical Trials</span><span>Research Innovation</span>
+          </div>
+          <div class="proj-links">
+            <a href="#presentations" class="proj-link">View Presentation →</a>
+          </div>
+        </div>
+        <div class="project-card glass-card animate-on-scroll">
+          <div class="proj-header">
+            <span class="proj-icon">💊</span>
+          </div>
+          <h3 class="proj-title">CINV Meta-Analysis — Palonosetron vs Ondansetron</h3>
+          <p class="proj-desc">Led a comprehensive systematic review and meta-analysis comparing the efficacy and safety of palonosetron versus ondansetron for preventing chemotherapy-induced nausea and vomiting (CINV), registered on PROSPERO and currently under peer review.</p>
+          <div class="proj-tech">
+            <span>Rayyan</span><span>RevMan</span><span>GRADEpro</span><span>PRISMA</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://www.crd.york.ac.uk/PROSPERO/view/CRD420251172577" class="proj-link">PROSPERO Registry →</a>
+          </div>
+        </div>
+        <div class="project-card glass-card animate-on-scroll">
+          <div class="proj-header">
+            <span class="proj-icon">☀️</span>
+          </div>
+          <h3 class="proj-title">Vitamin D3 Supplementation in Pediatric Populations</h3>
+          <p class="proj-desc">First-authored systematic review and meta-analysis evaluating the effect of oral vitamin D3 supplementation on serum 25(OH)D concentrations in healthy children and adolescents at risk of deficiency, synthesizing data from randomized controlled trials.</p>
+          <div class="proj-tech">
+            <span>R Software</span><span>Zotero</span><span>Data Extraction</span><span>Risk of Bias</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://www.crd.york.ac.uk/PROSPERO/view/CRD420261343246" class="proj-link">PROSPERO Registry →</a>
+          </div>
+        </div>
+        <div class="project-card glass-card animate-on-scroll">
+          <div class="proj-header">
+            <span class="proj-icon">🩺</span>
+          </div>
+          <h3 class="proj-title">DKA Recovery Predictors — Prospective Study</h3>
+          <p class="proj-desc">Contributed to a prospective observational study investigating clinical and biochemical predictors of time to recovery in adult patients with diabetic ketoacidosis (DKA) at a Government Medical College Hospital setting.</p>
+          <div class="proj-tech">
+            <span>Observational Design</span><span>Data Analysis</span><span>Clinical Research</span>
+          </div>
+          <div class="proj-links">
+            <a href="#publications" class="proj-link">View Publication →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scientific Writing & Workshops Section -->
+  <section class="section section-alt" id="writing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Methodology &amp; Training</span>
+        <h2 class="section-title">Scientific Writing &amp; Workshops</h2>
+      </div>
+      <div class="writing-grid">
+        <div class="writing-card glass-card animate-on-scroll">
+          <div class="wc-icon">📚</div>
+          <span class="wc-type">National Workshop</span>
+          <h3 class="wc-title">SARANSH 2025 — Systematic Reviews and Networking Support in Health</h3>
+          <p class="wc-venue">Technical Resource Centre for Evidence-Based Guidelines, DHR, New Delhi · SRM Medical College Hospital &amp; Research Centre, Kattankulathur</p>
+          <p class="wc-desc">Attended a 4-day intensive workshop (August 5–8, 2025) on systematic review methodology, evidence synthesis, and health research networking organized by the Department of Health Research.</p>
+        </div>
+        <div class="writing-card glass-card animate-on-scroll">
+          <div class="wc-icon">🔍</div>
+          <span class="wc-type">National Workshop</span>
+          <h3 class="wc-title">SARANSH 2.0 — Systematic Reviews &amp; Meta-Analysis</h3>
+          <p class="wc-venue">Technical Resource Centre, ICMR–NIRT, Chetpet, Chennai</p>
+          <p class="wc-desc">Participated in an advanced 5-day workshop (February 23–27, 2026) on systematic review and meta-analysis methodology at the ICMR–National Institute for Research in Tuberculosis, deepening expertise in evidence synthesis.</p>
+        </div>
+        <div class="writing-card glass-card animate-on-scroll">
+          <div class="wc-icon">✍️</div>
+          <span class="wc-type">ICMR Certification</span>
+          <h3 class="wc-title">Scientific Writing in Health Research (NleCer 103)</h3>
+          <p class="wc-venue">ICMR–National Institute of Epidemiology (ICMR-NIE) · SWAYAM · Feb 2025</p>
+          <p class="wc-desc">Completed a certified course covering scientific manuscript preparation, research reporting standards, structured writing for health sciences, and publication ethics — issued with Credential ID: NleCer103_27648.</p>
+        </div>
+        <div class="writing-card glass-card animate-on-scroll">
+          <div class="wc-icon">📊</div>
+          <span class="wc-type">SRMA Expertise</span>
+          <h3 class="wc-title">PRISMA-Compliant Systematic Reviews &amp; Evidence Synthesis</h3>
+          <p class="wc-venue">Ongoing Research Practice</p>
+          <p class="wc-desc">Proficient in the full SRMA workflow — from protocol registration on PROSPERO, literature screening in Rayyan, risk of bias assessment, data extraction, meta-analytic modeling in R and RevMan, to GRADE certainty of evidence using GRADEpro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Presentations Section -->
+  <section class="section" id="presentations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Conferences &amp; Talks</span>
+        <h2 class="section-title">Presentations</h2>
+      </div>
+      <div class="pres-list">
+        <div class="pres-item glass-card animate-on-scroll">
+          <div class="pres-date">
+            <span class="pres-year">2025</span>
+            <span class="pres-month">Mar</span>
+          </div>
+          <div class="pres-content">
+            <span class="pres-type oral">Oral Presentation</span>
+            <h3 class="pres-title">Smart Contracts: A Silent Revolution in Clinical Trials</h3>
+            <p class="pres-venue">🏛️ 9th National Zonal Championship – BECon 2025 · Makeintern · IIT Delhi</p>
+          </div>
+          <span class="pres-award">🏆 IIT Delhi</span>
+        </div>
+        <div class="pres-item glass-card animate-on-scroll">
+          <div class="pres-date">
+            <span class="pres-year">2025</span>
+            <span class="pres-month">Dec</span>
+          </div>
+          <div class="pres-content">
+            <span class="pres-type poster">Poster Presentation</span>
+            <h3 class="pres-title">Evaluation of Exacerbation Control among COPD Patients Receiving Methylxanthines, Corticosteroids and Antibiotics</h3>
+            <p class="pres-venue">🏛️ 74th Indian Pharmaceutical Congress · BIEC, Bengaluru</p>
+          </div>
+          <span class="pres-award">🇮🇳 National Level</span>
+        </div>
+        <div class="pres-item glass-card animate-on-scroll">
+          <div class="pres-date">
+            <span class="pres-year">2024</span>
+            <span class="pres-month">Sep</span>
+          </div>
+          <div class="pres-content">
+            <span class="pres-type poster">ePoster Presentation</span>
+            <h3 class="pres-title">Retrospective Study of Relapse Rates in Patients Undergoing Chemotherapy</h3>
+            <p class="pres-venue">🏛️ National Seminar on "Emerging Trends in Clinical Pharmacology Research &amp; Pharmacy Practice" · JSS College of Pharmacy, Ooty · Sponsored by SERB–DST, New Delhi</p>
+          </div>
+        </div>
+        <div class="pres-item glass-card animate-on-scroll">
+          <div class="pres-date">
+            <span class="pres-year">2024</span>
+            <span class="pres-month">Aug</span>
+          </div>
+          <div class="pres-content">
+            <span class="pres-type poster">Poster Presentation</span>
+            <h3 class="pres-title">Breast Cancer Patients Receiving Hormonal and Non-Hormonal Therapy: A Retrospective Study</h3>
+            <p class="pres-venue">🏛️ ICGAPC 2024 — International Conference on "Global Aspects of Pharmaceutical Care" · C.L. Baid Metha College of Pharmacy, Chennai</p>
+          </div>
+          <span class="pres-award">🌏 International</span>
+        </div>
+        <div class="pres-item glass-card animate-on-scroll">
+          <div class="pres-date">
+            <span class="pres-year">2024</span>
+            <span class="pres-month"></span>
+          </div>
+          <div class="pres-content">
+            <span class="pres-type oral">Oral Presentation</span>
+            <h3 class="pres-title">Fever with Acute Gastroenteritis — Clinical Case Presentation</h3>
+            <p class="pres-venue">🏛️ National Level Conference on "Bridging Pharma Research &amp; Intellectual Property" · The Erode College of Pharmacy · Accredited by TN Dr. M.G.R. Medical University</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expertise &amp; Competencies</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-category glass-card animate-on-scroll">
+          <div class="sc-header">
+            <span class="sc-icon">🔬</span>
+            <h3 class="sc-title">Research &amp; Evidence Synthesis</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="sb-label"><span>Systematic Reviews &amp; Meta-Analysis</span><span>95%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>PRISMA Guidelines &amp; Protocols</span><span>92%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Risk of Bias Assessment</span><span>88%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Data Extraction &amp; Synthesis</span><span>90%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category glass-card animate-on-scroll">
+          <div class="sc-header">
+            <span class="sc-icon">💻</span>
+            <h3 class="sc-title">Software &amp; Tools</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="sb-label"><span>Rayyan (Screening)</span><span>93%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="93"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>R Software (Data Analysis)</span><span>85%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>GRADEpro &amp; RevMan</span><span>88%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>MS Excel &amp; SAS</span><span>82%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="82"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category glass-card animate-on-scroll">
+          <div class="sc-header">
+            <span class="sc-icon">💊</span>
+            <h3 class="sc-title">Clinical &amp; Pharmaceutical</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="sb-label"><span>Clinical Research &amp; GCP</span><span>90%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Therapeutic Drug Monitoring</span><span>82%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Patient Counseling &amp; MTM</span><span>88%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Pharmacovigilance</span><span>85%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="85"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category glass-card animate-on-scroll">
+          <div class="sc-header">
+            <span class="sc-icon">🌟</span>
+            <h3 class="sc-title">Professional &amp; Communication</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="sb-label"><span>Scientific Writing</span><span>92%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Conference Presentations</span><span>88%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>Interdisciplinary Collaboration</span><span>90%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="sb-label"><span>German Language (A1, pursuing A2)</span><span>40%</span></div>
+              <div class="sb-track"><div class="sb-fill" data-width="40"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Technologies -->
+      <div class="tools-section">
+        <h3 class="tools-title">Tools &amp; Technologies</h3>
+        <div class="tools-grid">
+          <div class="tool-chip">Rayyan</div>
+          <div class="tool-chip">Zotero</div>
+          <div class="tool-chip">GRADEpro</div>
+          <div class="tool-chip">RevMan</div>
+          <div class="tool-chip">R Software</div>
+          <div class="tool-chip">SAS</div>
+          <div class="tool-chip">MS Excel</div>
+          <div class="tool-chip">HPLC</div>
+          <div class="tool-chip">Mass Spectrometry</div>
+          <div class="tool-chip">PRISMA</div>
+          <div class="tool-chip">PROSPERO</div>
+          <div class="tool-chip">SPSS</div>
+          <div class="tool-chip">Chromatography</div>
+          <div class="tool-chip">Spectroscopy</div>
+          <div class="tool-chip">MS Office</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🤖</div>
+          <h3 class="cert-name">AI in Healthcare Specialization</h3>
+          <p class="cert-org">Stanford University School of Medicine</p>
+          <p class="cert-year">Completed: September 2024</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🎖️</div>
+          <h3 class="cert-name">Good Clinical Practice (GCP) Training</h3>
+          <p class="cert-org">NIDA Clinical Trials Network – National Institute on Drug Abuse</p>
+          <p class="cert-year">Completed: July 2024</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">⚗️</div>
+          <h3 class="cert-name">Clinical Trials Regulatory Requirements in India (v3.0)</h3>
+          <p class="cert-org">NPTEL – IIT Madras</p>
+          <p class="cert-year">Completed: September 2024</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">✍️</div>
+          <h3 class="cert-name">Scientific Writing in Health Research</h3>
+          <p class="cert-org">ICMR–NIE via SWAYAM</p>
+          <p class="cert-year">Completed: February 2025</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🔬</div>
+          <h3 class="cert-name">Basic Course in Biomedical Research</h3>
+          <p class="cert-org">ICMR–NIE · NPTEL · NMC</p>
+          <p class="cert-year">Completed: April 2025</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">📊</div>
+          <h3 class="cert-name">Introduction to Systematic Reviews for Dental Health Professionals</h3>
+          <p class="cert-org">ICMR–NIE via SWAYAM</p>
+          <p class="cert-year">Completed: September 2025</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🇩🇪</div>
+          <h3 class="cert-name">German Language – A1 Level</h3>
+          <p class="cert-org">IIT Madras via SWAYAM · Pursuing A2</p>
+          <p class="cert-year">Completed: October 2025</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🛡️</div>
+          <h3 class="cert-name">Certificate Course in Pharmacovigilance</h3>
+          <p class="cert-org">Vigilance Department · Pharmscape</p>
+          <p class="cert-year">Completed: February 2025</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">🩺</div>
+          <h3 class="cert-name">Clinical Diagnostics for Clinical Pharmacist</h3>
+          <p class="cert-org">CliMed Academy (CliMed.Edu)</p>
+          <p class="cert-year">Completed: October 2024</p>
+          <span class="cert-status active">Active</span>
+        </div>
+        <div class="cert-card glass-card animate-on-scroll">
+          <div class="cert-logo">💻</div>
+          <h3 class="cert-name">Getting Started with SAS Programming</h3>
+          <p class="cert-org">Coursera</p>
+          <p class="cert-year">Completed: August 2024</p>
+          <span class="cert-status active">Active</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Referees Section -->
+  <section class="section" id="referees">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Endorsements</span>
+        <h2 class="section-title">Professional References</h2>
+        <p class="section-subtitle">Distinguished mentors and research scientists with whom I have collaborated on clinical studies, systematic reviews, and public health economics research.</p>
+      </div>
+      <div class="ref-grid">
+        <div class="ref-card glass-card animate-on-scroll">
+          <div class="ref-header">
+            <span class="ref-avatar">MH</span>
+            <div>
+              <h3 class="ref-name">Dr. Madhumitha Haridoss</h3>
+              <p class="ref-title">Assistant Professor (Research)</p>
+            </div>
+          </div>
+          <div class="ref-body">
+            <p class="ref-dept">Division of Medical Research</p>
+            <p class="ref-inst">SRM Medical College Hospital and Research Centre, SRMIST, Kattankulathur</p>
+            <a href="mailto:madhumih@srmist.edu.in" class="ref-email">📧 madhumih@srmist.edu.in</a>
+          </div>
+        </div>
+
+        <div class="ref-card glass-card animate-on-scroll">
+          <div class="ref-header">
+            <span class="ref-avatar">MM</span>
+            <div>
+              <h3 class="ref-name">Dr. Muniyandi M</h3>
+              <p class="ref-title">Scientist E &amp; Head</p>
+            </div>
+          </div>
+          <div class="ref-body">
+            <p class="ref-dept">Department of Health Economics</p>
+            <p class="ref-inst">ICMR–National Institute for Research in Tuberculosis (NIRT), Chennai</p>
+            <a href="mailto:muniyandi.m@icmr.gov.in" class="ref-email">📧 muniyandi.m@icmr.gov.in</a>
+          </div>
+        </div>
+
+        <div class="ref-card glass-card animate-on-scroll">
+          <div class="ref-header">
+            <span class="ref-avatar">KP</span>
+            <div>
+              <h3 class="ref-name">Dr. P. Kavi Priya</h3>
+              <p class="ref-title">Assistant Professor</p>
+            </div>
+          </div>
+          <div class="ref-body">
+            <p class="ref-dept">Department of General Medicine</p>
+            <p class="ref-inst">Government Medical College and Hospital, Tiruppur</p>
+            <a href="mailto:kavi1311dr@gmail.com" class="ref-email">📧 kavi1311dr@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="ref-card glass-card animate-on-scroll">
+          <div class="ref-header">
+            <span class="ref-avatar">SR</span>
+            <div>
+              <h3 class="ref-name">Dr. Sampathkumar R</h3>
+              <p class="ref-title">Principal &amp; Secretary</p>
+            </div>
+          </div>
+          <div class="ref-body">
+            <p class="ref-dept">The Erode College of Pharmacy, Erode</p>
+            <p class="ref-inst">Secretary, APTI – Tamil Nadu Branch</p>
+            <a href="mailto:sampathkumar.r@ecp.ac.in" class="ref-email">📧 sampathkumar.r@ecp.ac.in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Collaborate</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">I'm open to research collaborations, systematic review projects, speaking opportunities, mentorship discussions, and innovative healthcare initiatives.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card glass-card animate-on-scroll">
+            <div class="cc-icon">📧</div>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:brightbranham42@gmail.com">brightbranham42@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card animate-on-scroll">
+            <div class="cc-icon">📱</div>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:+919150473703">+91 91504 73703</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card animate-on-scroll">
+            <div class="cc-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <a href="#">Chennai, Tamil Nadu, India</a>
+            </div>
+          </div>
+          <div class="contact-card glass-card animate-on-scroll">
+            <div class="cc-icon">🏛️</div>
+            <div>
+              <h3>University</h3>
+              <a href="#">TN Dr. M.G.R. Medical University</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap animate-on-scroll">
+          <form class="contact-form glass-card" id="contactForm">
+            <h3 class="form-title">Send a Message</h3>
+            <div class="form-group">
+              <label for="contactName">Full Name</label>
+              <input type="text" id="contactName" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <select id="contactSubject">
+                <option value="">Select a topic…</option>
+                <option>Research Collaboration</option>
+                <option>Systematic Review Project</option>
+                <option>Speaking Opportunity</option>
+                <option>Mentorship</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" rows="5" placeholder="Tell me about your idea, project, or question…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-icon">→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">⚕</span>
+          <span class="footer-name">Branham Bright, PharmD Intern</span>
+        </div>
+        <p class="footer-tagline">Advancing healthcare through evidence, research, and dedication.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#referees">References</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer-copy">© 2026 Branham Bright · Built with precision &amp; purpose</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
