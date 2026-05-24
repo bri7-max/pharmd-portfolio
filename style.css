@@ -544,6 +544,14 @@ body.js-ready .animate-on-scroll.visible,
   color: white;
   box-shadow: var(--shadow-blue);
 }
+.about-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow-blue);
+  border: 2px solid rgba(59, 130, 246, 0.3);
+}
 .about-image-badge {
   padding: 0.4rem 1.2rem;
   background: rgba(59,130,246,0.15);
