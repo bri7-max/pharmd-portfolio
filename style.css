@@ -402,8 +402,8 @@ h1, h2, h3, h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   padding: 8px;
   background: rgba(255, 255, 255, 0.02);
