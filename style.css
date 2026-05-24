@@ -395,6 +395,49 @@ h1, h2, h3, h4 {
   padding: 0.9rem 1.25rem;
   border-radius: 14px;
   min-width: 220px;
+  z-index: 2;
+}
+.hero-profile-img-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 0 20px rgba(255, 255, 255, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  animation: heroPhotoEntrance 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.hero-profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(59, 130, 246, 0.35);
+  box-shadow: var(--shadow-blue);
+}
+.hero-profile-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--grad-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  box-shadow: var(--shadow-blue);
+}
+@keyframes heroPhotoEntrance {
+  0% { opacity: 0; transform: translate(-50%, -45%) scale(0.92); filter: blur(10px); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); filter: blur(0); }
 }
 .hero-card:nth-child(3) { top: 20%; right: 0; }
 .hcard-icon {
